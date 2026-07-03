@@ -21,7 +21,7 @@ import streamlit as st
 # Page config & styling
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Indian Mutual Fund Analyzer",
+    page_title="Fundwala",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -342,7 +342,8 @@ if st.session_state.compare_list:
 # ---------------------------------------------------------------------------
 # Main area
 # ---------------------------------------------------------------------------
-st.title("Indian Mutual Fund Analysis Dashboard")
+st.title("Fund Wala")
+st.caption("Indian Mutual Fund Analysis Dashboard")
 
 if not selected_scheme:
     st.markdown(
